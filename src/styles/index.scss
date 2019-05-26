@@ -1,0 +1,36 @@
+$activeColor: #4286f4;
+
+.simple-pagination {
+    button {
+        background: transparent;
+        border: solid 1px #EEE;
+        padding: 5px 10px;
+        color: $activeColor;
+
+        &:first-child {
+            border-radius: 5px 0 0 5px;
+        }
+        &:last-child {
+            border-radius: 0 5px 5px 0;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &[disabled] {
+            background: #EEE;
+            color: #CCC;
+        }
+    }
+
+    .btn-number {
+        min-width: 30px;
+
+        &.active {
+            background: $activeColor;
+            color: #FFF;
+        }
+    }
+
+}

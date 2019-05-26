@@ -1,0 +1,20 @@
+.simple-pagination button {
+  background: transparent;
+  border: solid 1px #EEE;
+  padding: 5px 10px;
+  color: #4286f4; }
+  .simple-pagination button:first-child {
+    border-radius: 5px 0 0 5px; }
+  .simple-pagination button:last-child {
+    border-radius: 0 5px 5px 0; }
+  .simple-pagination button:focus {
+    outline: none; }
+  .simple-pagination button[disabled] {
+    background: #EEE;
+    color: #CCC; }
+
+.simple-pagination .btn-number {
+  min-width: 30px; }
+  .simple-pagination .btn-number.active {
+    background: #4286f4;
+    color: #FFF; }
